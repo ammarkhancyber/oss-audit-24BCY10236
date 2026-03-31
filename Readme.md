@@ -1,25 +1,31 @@
-Open Source Audit - Capstone Project
-Student Name: Ammar Khan
-Roll Number: 24BCY10236
-Chosen Software: Git
-Project Overview
-Included Scripts
+#Open Source Audit - Capstone Project
+
+**Student Name:** Ammar Khan  
+**Roll Number:** 24BCY10236  
+**Chosen Software:** Git  
+
+---
+
+## Project Overview
 
 This project includes five Bash scripts that demonstrate practical Linux concepts and automation techniques.
-Script 1: System Identity Report (script1_identity.sh)
 
-Description:
-This script works like a welcome screen. It collects and displays important system details such as the kernel version, current user, system uptime, and a message related to the open-source nature of the operating system.
+---
 
-Concepts Used:
-Variables, command substitution $(), echo, uname, whoami, uptime
+## Included Scripts
 
-How to Run:
+### Script 1: System Identity Report (`script1_identity.sh`)
 
-# Make the script executable
+**Description:**  
+This script works like a welcome screen. It collects and displays important system details such as kernel version, current user, system uptime, and a message related to the open-source nature of the operating system.
+
+**Concepts Used:**  
+Variables, command substitution `$()`, `echo`, `uname`, `whoami`, `uptime`
+
+**How to Run:**
+
+```bash
 chmod +x script1_identity.sh
-
-# Execute the script
 ./script1_identity.sh
 
 Script 2: FOSS Package Inspector (script2_inspector.sh)
